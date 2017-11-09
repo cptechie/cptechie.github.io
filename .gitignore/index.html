@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <script>
+    (function(i, s, o, g, r, a, m) {
+    	i['GoogleAnalyticsObject'] = r;
+    	i[r] = i[r] || function() {
+    		(i[r].q = i[r].q || []).push(arguments)
+    	}, i[r].l = 1 * new Date();
+    	a = s.createElement(o),
+    		m = s.getElementsByTagName(o)[0];
+    	a.async = 1;
+    	a.src = g;
+    	m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-61463514-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <title>Greetings from Chintan!</title>
+  <meta name="generator" content="Bootply" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet">
+  <!--[if lt IE 9]>
+		<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+  <link href="css/styles.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+  <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+
+  <div class="container-full">
+
+    <div class="row">
+
+      <div class="col-lg-12 v-center">
+        <img class="img-circle" height="150px" width="150px" src="http://www.gravatar.com/avatar/9051c3342a1a4a546297258cf6546c4f?s=600">
+
+        <h1>Hey There!</h1>
+
+        <p class="lead">
+          My name is Chintan. I'm a student, entrepreneur, tinkerer, and all-around goofball.</p>
+
+        <div class="icons">
+          <a href="https://www.facebook.com/chintu890"><i class="icon-facebook"></i></a>
+          <a href="https://www.twitter.com/cptechie"><i class="icon-twitter"></i></a>
+          <a href="https://www.linkedin.com/in/cptechie"><i class="icon-linkedin"></i></a>
+          <a href="https://www.github.com/cptechie"><i class="icon-github"></i></a>
+        </div>
+
+      </div>
+
+    </div>
+    <!-- /row -->
+
+  </div>
+  <!-- /container full -->
+
+
+  <!-- script references -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+  <script>
+    jQuery.fn.center = function() {
+    	this.css("position", "fixed");
+    	this.css("top", ($(window).height() / 2) - (this.outerHeight() / 2) - 35);
+    	this.css("left", ($(window).width() / 2) - (this.outerWidth() / 2));
+    	return this;
+    }
+
+    $('.v-center').center();
+
+    $(".v-center").fadeIn(300);
+
+    $(window).resize(function() {
+    	$('.v-center').center();
+    });
+  </script>
+
+</body>
+
+</html>
